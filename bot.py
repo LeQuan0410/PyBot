@@ -225,4 +225,4 @@ async def on_ready():
         await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name=f"{len(bot.guilds)} servers!"))
 if __name__ == '__main__':
     init(convert=True)
-    bot.run('MTAyMTA5MzY5MTE5NDA4NTQ3Nw.G7DF0L.mK6CmPvlUVVWvY73ZPIlFRkeGzxhXdqSG_6ll8')
+    bot.run('bot token')
